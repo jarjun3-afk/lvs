@@ -1,9 +1,8 @@
 // Static services data — slug-routed detail pages
-export const LOGO_URL =
-  "https://customer-assets.emergentagent.com/job_fde3f212-d4d8-4051-8958-afdb22bb6d10/artifacts/217sg874_LvsLogo.jpeg";
+// Images live in /public/images/ so they're bundled with the build
+export const LOGO_URL = "/images/logo.jpeg";
 
-export const HERO_BG =
-  "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/2c46abb6035b0ea6c96f2bdb29c27b814765649e0dafc10583f27bf593f465b1.png";
+export const HERO_BG = "/images/hero-bg.png";
 
 export const SERVICES = [
   {
@@ -11,8 +10,7 @@ export const SERVICES = [
     code: "01",
     title: "CCTV Surveillance",
     short: "HD+ 24/7 monitoring with night vision, remote viewing, and intelligent recording.",
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/3fc8f76c97f137346ee14fca66dfd7eb8841657aacbfdc8f108f9f886f9dd53d.png",
+    image: "/images/service-cctv.png",
     tagline: "See everything. Miss nothing.",
     overview:
       "End‑to‑end CCTV surveillance for homes, shops, banks, factories and warehouses. We engineer multi-camera setups with crystal-clear day & night vision, intelligent motion-triggered recording, and secure remote viewing on your phone.",
@@ -39,8 +37,7 @@ export const SERVICES = [
     code: "02",
     title: "LAN Networking",
     short: "Structured cabling and high-speed wired networks built for uptime.",
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/09a953a6d965fe47d653d3ca7c8acd635582d6becd6923b8479f6189bd0a62e4.png",
+    image: "/images/service-lan.png",
     tagline: "Wired for speed. Built to last.",
     overview:
       "Professional LAN design, structured cabling and rack assembly for offices, banks and industrial sites. We deliver clean cable runs, proper labelling and tested links so your network never becomes the bottleneck.",
@@ -66,8 +63,7 @@ export const SERVICES = [
     code: "03",
     title: "Biometric Access Control",
     short: "Fingerprint, face & RFID access systems with attendance & audit trails.",
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/8b4ad1ca35b2115530445aa4e34c730c87c9d77adf6c36e04ee8e4cf97cbe51e.png",
+    image: "/images/service-biometric.png",
     tagline: "Only the right people. Every time.",
     overview:
       "Stop key duplication and unauthorised entry. Our biometric access control systems combine fingerprint, face recognition and RFID cards with electromagnetic locks and exit buttons — backed by automatic attendance reports.",
@@ -93,8 +89,7 @@ export const SERVICES = [
     code: "04",
     title: "Fire & Smoke Intrusion Systems",
     short: "Early-warning fire detection with addressable panels and instant alerts.",
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/766fe35f8e28a62525194de263e8c26c55c56c2846c9a67c9198c496d95c1700.png",
+    image: "/images/service-fire.png",
     tagline: "Detect it early. Act in seconds.",
     overview:
       "Conventional and addressable fire-alarm systems engineered to local fire-safety codes. Photoelectric smoke detectors, heat detectors and gas sensors raise the alert long before the fire spreads — with hooter, strobe and SMS notifications.",
@@ -120,8 +115,7 @@ export const SERVICES = [
     code: "05",
     title: "Door Sensors",
     short: "Magnetic & wireless door contacts that flag every unauthorised entry.",
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/b7126ca19e6172fd7c0d955843e35db65b19b0b8faab3bdfbce43b9efcfb48bc.png",
+    image: "/images/service-door.png",
     tagline: "Every door, every entry — logged.",
     overview:
       "Magnetic reed switches and wireless contact sensors that detect the moment a door, window or cupboard opens. Integrated with the alarm panel and your phone for instant push alerts and CCTV video pop-up.",
@@ -146,8 +140,7 @@ export const SERVICES = [
     code: "06",
     title: "Shutter Sensors",
     short: "Heavy-duty roller-shutter monitoring for shops, godowns and showrooms.",
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/5e13b41be9dd9167a1529c171ae0ea81d5bf70545efc586cf08c40b4c780e2a4.png",
+    image: "/images/service-shutter.png",
     tagline: "If the shutter moves, you’ll know.",
     overview:
       "Industrial-grade roller-shutter sensors that detect even a few centimetres of movement when the shop is closed. Wired into the GSM alarm panel — gets you a call, SMS and WhatsApp the moment something is wrong.",
@@ -172,8 +165,7 @@ export const SERVICES = [
     code: "07",
     title: "Motion Sensors",
     short: "Smart PIR & dual-tech sensors that catch movement, ignore pets.",
-    image:
-      "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/31219678501f524c7dae8581c65f35dbf0d0a3249ea11e47c804eb007c6067f2.png",
+    image: "/images/service-motion.png",
     tagline: "Detect intruders, not pets.",
     overview:
       "PIR (passive infrared) and dual-technology motion detectors that pick up human movement inside protected zones — wired into your alarm system, smart bulbs and CCTV. Pet-immune variants ignore animals up to 25 kg.",
