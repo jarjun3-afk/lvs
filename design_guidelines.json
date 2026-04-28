@@ -1,0 +1,136 @@
+{
+  "theme": "dark",
+  "archetype": "7 (Electric & Neon) - Custom Tech Surveillance",
+  "domain_context": "B2B Security Services (CCTV, Networking, Sensors)",
+  "brand_name": "Leela Vigil Solutions",
+  "colors": {
+    "primary": "#00ff9c",
+    "secondary": "#00cfff",
+    "background_gradient": "bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#0f1b2e] to-[#05080f]",
+    "surface": "#0f1b2e",
+    "surface_glass": "bg-white/5 backdrop-blur-xl",
+    "border": "border-white/10",
+    "border_hover": "hover:border-[#00ff9c]/50",
+    "text_primary": "#ffffff",
+    "text_secondary": "#94a3b8"
+  },
+  "typography": {
+    "fonts": {
+      "headings": "Space Grotesk",
+      "subtitles_numbers": "JetBrains Mono",
+      "body": "Manrope"
+    },
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter text-white",
+      "h2": "text-3xl sm:text-4xl font-bold tracking-tight text-white",
+      "h3": "text-2xl font-semibold tracking-tight text-white",
+      "h4": "text-xl font-medium text-white",
+      "body": "text-base text-slate-400 leading-relaxed",
+      "labels": "text-xs font-mono uppercase tracking-[0.2em] text-[#00cfff]"
+    }
+  },
+  "spacing_and_layout": {
+    "container_padding": "px-6 md:px-12 lg:px-24 py-20 lg:py-32",
+    "grid_gap": "gap-8 lg:gap-12",
+    "card_padding": "p-8 lg:p-10",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-8"
+  },
+  "surfaces_and_effects": {
+    "header": "fixed top-0 w-full z-50 bg-[#05080f]/70 backdrop-blur-2xl border-b border-white/10",
+    "card": "relative overflow-hidden bg-white/5 border border-white/10 rounded-2xl group transition-all duration-300",
+    "card_hover": "hover:bg-white/10 hover:border-[#00ff9c]/50 hover:shadow-[0_0_30px_rgba(0,255,156,0.15)] hover:-translate-y-1",
+    "textures": "Include a subtle SVG pattern (like a grid or scanline) overlay on the main background with opacity 5%",
+    "animations": "Use Framer Motion for staggered fade-up on scroll. For hero, add a subtle radar sweeping line animation or glowing pulse effect on the cyan/green accents."
+  },
+  "components_instructions": {
+    "buttons": {
+      "primary": "bg-[#00ff9c] text-black font-bold px-8 py-4 rounded-none hover:bg-white hover:text-black transition-colors duration-300 font-mono text-sm uppercase tracking-wider shadow-[0_0_20px_rgba(0,255,156,0.4)]",
+      "secondary": "bg-transparent text-white border border-[#00cfff] px-8 py-4 rounded-none hover:bg-[#00cfff]/10 transition-colors duration-300 font-mono text-sm uppercase tracking-wider",
+      "back_to_home": "flex items-center gap-2 text-slate-400 hover:text-[#00ff9c] transition-colors font-mono text-sm uppercase tracking-wider mb-8"
+    },
+    "forms": "Use Shadcn UI for Input, Textarea. Make them dark theme: bg-[#0f1b2e] border-white/20 text-white focus:border-[#00ff9c] focus:ring-1 focus:ring-[#00ff9c].",
+    "floating_whatsapp": "Fixed bottom-8 right-8 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform flex items-center justify-center",
+    "icons": "Use @phosphor-icons/react or lucide-react with high-tech / bold weights. Prefer duotone or regular."
+  },
+  "pages_and_sections": {
+    "marketing_site_structure": [
+      {
+        "name": "Hero Section",
+        "layout": "Asymmetric split layout. Left side: High impact H1, subtext, primary CTA. Right side: Glowing tech graphic or image bento box with subtle floating animations.",
+        "assets": ["hero_bg"]
+      },
+      {
+        "name": "About Section",
+        "layout": "2-column grid. Left: Text explaining Leela Vigil Solutions and office timings. Right: Grid of key stats/icons."
+      },
+      {
+        "name": "Services Grid",
+        "layout": "Bento-style grid displaying 7 cards. Cards must use glassmorphic styling, neon hover borders, and click through to detailed service pages.",
+        "items": ["CCTV", "LAN Networking", "Biometric Access", "Fire & Smoke", "Door Sensor", "Shutter Sensor", "Motion Sensor"]
+      },
+      {
+        "name": "Contact / Form Section",
+        "layout": "Form with Name, Email, Mobile, Message. Form submission should connect visually. Email to contact@leelavigils.com & leelavigils@gmail.com and WhatsApp +91 63625 54499"
+      },
+      {
+        "name": "Footer",
+        "layout": "Dark minimalist footer, links, contact details, copyright."
+      },
+      {
+        "name": "Service Detail Page",
+        "layout": "Dynamic page for each service. Top: Back to home button. Hero area with large image and service title. Body: Text about the service. Bottom: Call to action / Quote form."
+      }
+    ]
+  },
+  "media_assets": {
+    "logo": {
+      "url": "https://customer-assets.emergentagent.com/job_fde3f212-d4d8-4051-8958-afdb22bb6d10/artifacts/217sg874_LvsLogo.jpeg",
+      "description": "Company Logo (LvsLogo) - Blue/green concentric 'G' mark on black background"
+    },
+    "images": [
+      {
+        "category": "hero_background",
+        "url": "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/2c46abb6035b0ea6c96f2bdb29c27b814765649e0dafc10583f27bf593f465b1.png",
+        "description": "Dark navy blue high-tech security concept background"
+      },
+      {
+        "category": "service_cctv",
+        "url": "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/3fc8f76c97f137346ee14fca66dfd7eb8841657aacbfdc8f108f9f886f9dd53d.png",
+        "description": "Modern CCTV security camera with dark moody lighting"
+      },
+      {
+        "category": "service_networking",
+        "url": "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/09a953a6d965fe47d653d3ca7c8acd635582d6becd6923b8479f6189bd0a62e4.png",
+        "description": "Data center server racks glowing with cyan and green LED lights"
+      },
+      {
+        "category": "service_biometric",
+        "url": "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/8b4ad1ca35b2115530445aa4e34c730c87c9d77adf6c36e04ee8e4cf97cbe51e.png",
+        "description": "High-tech fingerprint biometric scanner"
+      },
+      {
+        "category": "service_fire_smoke",
+        "url": "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/766fe35f8e28a62525194de263e8c26c55c56c2846c9a67c9198c496d95c1700.png",
+        "description": "Modern sleek smoke detector"
+      },
+      {
+        "category": "service_door_sensor",
+        "url": "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/b7126ca19e6172fd7c0d955843e35db65b19b0b8faab3bdfbce43b9efcfb48bc.png",
+        "description": "Futuristic door security sensor"
+      },
+      {
+        "category": "service_shutter_sensor",
+        "url": "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/5e13b41be9dd9167a1529c171ae0ea81d5bf70545efc586cf08c40b4c780e2a4.png",
+        "description": "Metal rolling shutter with high-tech security sensor"
+      },
+      {
+        "category": "service_motion_sensor",
+        "url": "https://static.prod-images.emergentagent.com/jobs/fde3f212-d4d8-4051-8958-afdb22bb6d10/images/31219678501f524c7dae8581c65f35dbf0d0a3249ea11e47c804eb007c6067f2.png",
+        "description": "Advanced motion sensor on dark wall"
+      }
+    ]
+  },
+  "testing": {
+    "attributes": "Ensure all interactive and key informational elements have a `data-testid` attribute (e.g., `data-testid='hero-cta'`, `data-testid='service-card-cctv'`)."
+  }
+}
